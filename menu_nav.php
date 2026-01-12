@@ -41,13 +41,15 @@ require_once __DIR__ . "/database/mysqli.php";
                     <a class="dropdown-item" href="apagardados.php">Apagar</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" href="#" id="produtosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Produtos
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="turmas.php">
+                    Turmas
                 </a>
-                <div class="dropdown-menu" aria-labelledby="produtosDropdown">
-                    <a class="dropdown-item" href="insereprodutos.php">Inserir</a>
-                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="alunos.php">
+                    Alunos
+                </a>
             </li>
         </div>
         <a class="navbar-brand text-dark" href="logout.php">Logout</a>
